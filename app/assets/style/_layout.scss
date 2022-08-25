@@ -98,9 +98,16 @@ a{
   display: block;  
 }
 
-.logo img{
+.logo{
   padding: 16px 0;
-  max-width: 80px;
+  img{
+    max-width: 80px;
+  }
+
+  a:hover{
+    position: relative;
+    top: 1px;
+  }
 }
 .menu{
   display: flex;
