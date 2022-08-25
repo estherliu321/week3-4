@@ -1,0 +1,10 @@
+@mixin hidetext {
+    text-indent: 101%;
+overflow: hidden;
+white-space: nowrap;
+
+}
+@mixin pic($url,$size){
+    background: url($url);
+    background-size: $size;
+}

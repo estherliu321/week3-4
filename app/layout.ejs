@@ -6,18 +6,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
+  
+  
 </head>
 
-<body>
-  <header class="header">
-    這是 header
+<body class="base">
+  <header class="header text4 bgcolor">
+    <div class="menu container mb-container">
+   <div class="logo"><img src="./assets/images/logo-white.png" alt="logo"></div>
+    <ul>
+    <li class="nav1"><a href="#">系列鏡框</a></li>
+    <li class="nav1"><a href="./shop.html">門市據點</a></li>
+    <li class="nav1"><a href="#">部落格</a></li>
+    <li class="nav2"><a href="#">常見問題</a></li>
+    </ul>
+</div>
   </header>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
+  <footer class="footer bgcolor">
+  <div class="info  container mbcontainer2 ">
+    <div class="sidel">
+      <div class="footermenu text5">
+        <ul >
+        <li class="mr48"><a href="http://">首頁</a></li>
+        <li class="mr48"><a href="http://">系列鏡框</a></li>
+        <li class="mr48"><a href="http://">門市據點</a></li>
+        <li class="mr48"><a href="http://">部落格</a></li>
+        <li><a href="http://">常見問題</a></li>
+      </ul>
+      </div>
+      <div class="contact"><ul>
+        <li><img src="./assets/images/phone_white_24dp.svg" alt="phone"><a href="tel:+0800000000">0800-000-000</a></li>
+        <li><img src="./assets/images/email_white_24dp.svg" alt="mail"><a href="mailto:glasses@business.com">glasses@business.com</a></li>
+      </ul></div>
+      
+    </div>
+    <div class="sider">
+      <ul>
+        <li class="mr32"><a href="http://"><img src="./assets/images/ic-social-fb.png" alt="facebook"></a></li>
+        <li class="mr32"><a href="http://"><img src="./assets/images/ic_social_ig.png" alt="instagram"></a></li>
+        <li ><a href="http://"><img src="./assets/images/ic_social_line.png" alt="line"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="btbar container mbcontainer2">
+    <p class="text5">Copyright © 2020 Glasses.All rights reserved.</p>
+    <ul>
+    <li></li>
+    <li class="mr48"><a href="http://">隱私權政策</a></li>
+    <li><a href="http://">服務條款</a></li>
+  </ul>
+  </div>
   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
