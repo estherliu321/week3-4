@@ -133,9 +133,13 @@ a {
 .header {
   display: block; }
 
-.logo img {
-  padding: 16px 0;
-  max-width: 80px; }
+.logo {
+  padding: 16px 0; }
+  .logo img {
+    max-width: 80px; }
+  .logo a:hover {
+    position: relative;
+    top: 1px; }
 
 .menu {
   display: -webkit-box;
